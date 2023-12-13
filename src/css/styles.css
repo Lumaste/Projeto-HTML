@@ -1,0 +1,57 @@
+.homeContainer {
+    background-image: url(../../dist/images/Background2.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    isolation: isolate;
+}
+
+.homeContainer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    opacity: .7;
+    z-index: -1;
+}
+
+/* Tela de Registro */
+
+
+.registerContainer {
+    background-image: url(../../dist/images/Background3.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    isolation: isolate;
+}
+
+.registerContainer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    opacity: .7;
+    z-index: -1;
+}
+
+
+/* Tela usuario */
+
+
+.userContainer {
+    background-image: url(../../dist/images/Background1.jpg);
+    background-size: cover;
+    background-position: left center;
+    background-repeat: no-repeat;
+    isolation: isolate;
+}
+
+.userContainer::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-color: white;
+    opacity: .7;
+    z-index: -1;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Telas Fintech">
+    <meta name="keywords" content="HTML, Tailwind/CSS, JavaScript">
+    <meta name="author" content="Luma">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inder&display=swap" rel="stylesheet">
+    <link href="/dist/output.css" rel="stylesheet">
+    <link href="./src/css/styles.css" rel="stylesheet">
+    <script defer src="./src/js/scripts.js"></script>
+    <title>Tela Fintech</title>
+</head>
+<body class="w-screen h-screen m-auto transition-all duration-500 ease font-inder">
+    <main class="homeContainer relative w-screen min-h-screen m-auto flex flex-col items-center p-4">
+        <header class="w-full xl:w-[80%] flex items-center justify-between">
+            <div class="w-full xl:w-48">
+                <img src="./dist/images/logo 1.svg" alt="Logotipo da Fintech" class="mt-10 mx-auto">
+            </div>
+            <nav class="hidden xl:block">
+                <ul class="flex gap-10">
+                    <li class="text-[#904429] font-bold xl:cursor-pointer p-2 relative after:content-[''] after:w-0 after:h-[3px] after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 after:ease-in-out after:bg-gradient-to-b from-blue-950 to-black after:hover:w-full">quem somos</li>
+                    <li class="text-[#904429] font-bold xl:cursor-pointer p-2 relative after:content-[''] after:w-0 after:h-[3px] after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 after:ease-in-out after:bg-gradient-to-b from-blue-950 to-black after:hover:w-full">fale conosco</li>
+                    <li class="text-[#904429] font-bold xl:cursor-pointer p-2 relative after:content-[''] after:w-0 after:h-[3px] after:absolute after:left-0 after:bottom-0 after:transition-all after:duration-500 after:ease-in-out after:bg-gradient-to-b from-blue-950 to-black after:hover:w-full">mais informações</li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="w-full xl:grid grid-cols-[50%_40%] md:w-[50%] xl:items-center xl:justify-between xl:w-[80%]">
+            <section class="w-full mt-[12rem]">
+                <h1 class="text-center text-2xl mb-10 hidden xl:block">Entre ou Cadastre-se</h1>
+                <form action="" class="flex items-center justify-center flex-col w-[80%] mx-auto">
+                    <div class="relative w-full">
+                        <input type="email" name="email" id="email" placeholder="Login com Google" class="w-full rounded-[10px] h-[2.5rem] border border-transparent bg-[#646262] text-white text-[14px] px-2 hover:bg-white hover:border hover:border-[#646262] hover:text-[#646262] focus:bg-white focus:border focus:border-[#646262] focus:text-[#646262] outline-none transition-all duration-300 ease-in-out cursor-pointer">
+                        <div class="absolute top-[50%] translate-y-[-50%] right-4">
+                            <img src="./dist/images/Gmail.svg" alt="Icone do Gmail" class="w-5">
+                        </div>
+                    </div>
+                    <div class="w-full relative mt-10">
+                        <input type="text" name="login" id="login" placeholder="digite seu email" class="w-full rounded-[10px] h-[2.5rem] border border-transparent bg-[#646262] text-white text-[14px] px-2 hover:bg-white hover:border hover:border-[#646262] hover:text-[#646262] focus:bg-white focus:border focus:border-[#646262] focus:text-[#646262] outline-none transition-all duration-300 ease-in-out cursor-pointer">
+                        <label for="login" class="absolute left-[50%] translate-x-[-50%] bottom-[2.5rem]">Login:</label>
+                    </div>
+                    <div class="w-full relative mt-10">
+                        <input type="password" name="password" id="password" placeholder="digite sua senha" class="w-full rounded-[10px] h-[2.5rem] border border-transparent bg-[#646262] text-white text-[14px] px-2 hover:bg-white hover:border hover:border-[#646262] hover:text-[#646262] focus:bg-white focus:border focus:border-[#646262] focus:text-[#646262] outline-none transition-all duration-300 ease-in-out cursor-pointer">
+                        <label for="password" class="absolute left-[50%] translate-x-[-50%] bottom-[2.5rem]">Senha:</label>
+                    </div>
+                </form>
+                <p class="mt-10 text-center">Esqueceu Login ou Senha</p>
+
+                <div class="w-full flex items-center justify-center mt-10">
+                    <input type="button" value="Criar Cadastro" class="registerButton bg-[#646262] w-[127px] h-[32px] rounded-[10px] text-white transition-all duration-300 ease-in-out cursor-pointer border border-transparent hover:border hover:border-[#904429] hover:bg-white hover:text-[#904429]">
+                </div>
+            </section>
+
+            <section class="hidden xl:flex text-center h-28">
+                <p class="text-xl">A <b class="text-[#904429]">Flash Finance</b> é a melhor opção para quem busca um controle financeiro eficiente e seguro. Nossos serviços são personalizados para atender às necessidades específicas de cada cliente.</p>
+            </section>
+        </div>
+
+        <footer class="flex items-center justify-center mt-12 gap-2">
+            <div class="w-10">
+                <img src="./dist/images/logo 1.svg" alt="Logotipo da Fintech">
+            </div>
+            <p>Alguns direitos reservados</p>
+        </footer>
+            
+    </main>
+</body>
+</html>
